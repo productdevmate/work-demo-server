@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/health")
-@CrossOrigin(origins = "http://13.222.169.224:5173")
+@CrossOrigin(origins = "*")
 public class HealthController {
 
     @GetMapping

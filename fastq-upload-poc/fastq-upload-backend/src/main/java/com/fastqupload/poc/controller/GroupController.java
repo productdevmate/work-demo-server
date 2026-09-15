@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/fastq")
-@CrossOrigin(origins = "http://13.222.169.224:5173")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 public class GroupController {
 
