@@ -8,7 +8,7 @@ services:
     ports:
       - "8081:8081"
     volumes:
-      - fastq_storage:/app/storage
+      - /opt/fastq_storage:/app/storage
 
   frontend:
     build:
@@ -18,6 +18,3 @@ services:
       - "5173:80"
     depends_on:
       - backend
-
-volumes:
-  fastq_storage:
