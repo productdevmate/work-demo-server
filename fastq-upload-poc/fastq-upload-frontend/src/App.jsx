@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import './index.css';
 
-const API_BASE = 'http://localhost:8081/api/fastq';
+const API_BASE = 'http://13.222.169.224:8081/api/fastq';
 const MAX_CONCURRENT_GROUPS = 4;
 const MAX_RETRIES = 3;
 
