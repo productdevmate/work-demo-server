@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/fastq")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://13.222.169.224:5173")
 @RequiredArgsConstructor
 @Slf4j
 public class UploadController {
